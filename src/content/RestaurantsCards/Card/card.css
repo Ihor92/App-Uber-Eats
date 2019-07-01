@@ -1,0 +1,40 @@
+.restaurant__card {
+  max-width: 308px;
+  margin: 0 5px;
+}
+
+.restaurant__card:hover {
+  background: var(--restaurant__card-hover);
+  transition: 0.5s;
+}
+
+.restaurant__img {
+  max-width: 308px;
+}
+
+.restaurant__name {
+  color: var(--title-of-restaurant);
+  line-height: 24px;
+  display: block;
+  padding-top: 16px;
+}
+
+.restaurant__name-uppercase {
+  text-transform: uppercase;
+}
+
+.restaurant__kitchen {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--restaurant-kitchen);
+  display: block;
+  padding-top: 4px;
+}
+
+.restaurant__time-delivery {
+  color: var(--title-of-restaurant);
+  font-size: 13px;
+  line-height: 21px;
+  display: block;
+  padding: 4px 0 20px;
+}

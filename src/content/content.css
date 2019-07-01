@@ -1,0 +1,24 @@
+.content {
+  max-width: 1124px;
+  margin: 0 auto;
+}
+
+.content__wrap {
+  max-width: 956px;
+  margin: 0 auto;
+}
+
+.content-title {
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--title-of-restaurant);
+  margin: 56px 0 16px;
+}
+
+.restaurant {
+  margin-bottom: 44px;
+}
+
+.restaurant__wrap {
+  margin-bottom: 16px;
+}

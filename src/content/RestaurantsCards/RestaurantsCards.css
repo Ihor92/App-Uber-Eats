@@ -1,0 +1,13 @@
+.restaurants-cards {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurants-cards:hover {
+  background: var(--restaurant__card-hover);
+  transition: 0.5s;
+}

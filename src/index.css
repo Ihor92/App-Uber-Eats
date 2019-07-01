@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --color-white: #fff;
+  --footer-border: rgba(255, 255, 255, 0.4);
+  --border-location-address: #e0e0e0;
+  --border-search: #757575;
+  --restaurant__card-hover: rgba(117, 117, 117, 0.04); /*restaurant__block-hover*/
+  --restaurant-kitchen: #626262;
+  --title-of-restaurant: #1d1d1d;
+  --background-registration: #262626bd;
+  --background-fotter: #262626;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-roboto);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 320px;
+}
+
+/*<div className="restaurant__wrap">
+  
+</div>*/

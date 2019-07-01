@@ -1,0 +1,52 @@
+.authorization__sing-in {
+  border: 1px solid var(--border-location-address);
+  border-radius: 2px;
+  color: var(--title-of-restaurant);
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: bold;
+  background: var(--color-white);
+  padding: 7px 20px;
+  transition: 0.5s;
+}
+
+.authorization__registration {
+  background: var(--background-fotter);
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 24px;
+  border-radius: 2px;
+  border: transparent;
+  padding: 8px 17px;
+  transition: 0.5s;
+}
+
+.authorization__registration:hover {
+  background-color: var(--background-registration);
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.authorization__sing-in:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.authorization__sing-in:focus,
+.authorization__registration:focus
+.cart:focus {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.cart {
+  background: transparent;
+  border: transparent;
+  padding: 0;
+  margin-left: 27px;
+}
+
+.box {
+  height: 30px;
+}

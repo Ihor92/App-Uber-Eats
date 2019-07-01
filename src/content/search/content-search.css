@@ -1,0 +1,18 @@
+.content__search-block {
+  width: 100%;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.search-restaurant:hover {
+  cursor: pointer;
+}
+
+.content__search {
+  padding: 8px 0 16px 8px;
+  border: transparent;
+  outline: 0;
+  width: 100%;
+}
