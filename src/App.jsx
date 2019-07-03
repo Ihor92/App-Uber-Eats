@@ -7,7 +7,7 @@ import { RestaurantPage } from "./restaurantPage/restaurantPage";
 
 function App() {
   return (
-    <> 
+    <>
       <Router>
         <Header />
         <Route path="/" exact component={Content} />

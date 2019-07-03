@@ -10,7 +10,10 @@ export function NavigationOfDishes(props) {
           {restaurants.sections.map((sections, i) => {
             return (
               <li>
-                <a href="javascript: void(0)" className="restaurant-navbar__link">
+                <a
+                  href="javascript: void(0)"
+                  className="restaurant-navbar__link"
+                >
                   {restaurants.sections.title}
                 </a>
               </li>

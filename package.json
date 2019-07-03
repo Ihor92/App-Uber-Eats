@@ -38,5 +38,11 @@
   "devDependencies": {
     "prettier": "1.18.2",
     "surge": "^0.21.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run deploy"
+    }
   }
 }

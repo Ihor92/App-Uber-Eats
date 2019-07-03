@@ -11,7 +11,6 @@ export function Header() {
   return (
     <div className="header">
       <div className="header__wrap-content">
-
         <Link className="hearder__logo" to="/">
           <img src={logoHeader} alt="Logo Uber Eats" />
         </Link>

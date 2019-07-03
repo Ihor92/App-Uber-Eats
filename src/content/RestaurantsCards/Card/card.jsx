@@ -17,7 +17,7 @@ export function Card(props) {
         {props.title}
       </span>
       <span className="restaurant__kitchen">
-        {props.priceBucket} • {" "}
+        {props.priceBucket} •{" "}
         {props.categories.map(category => {
           return category.keyName + " • ";
         })}
