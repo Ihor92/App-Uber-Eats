@@ -9,14 +9,11 @@ function App() {
   return (
     <> 
       <Router>
-
         <Header />
         <Route path="/" exact component={Content} />
         <Route path="/restaurant" component={RestaurantPage} />
         <Footer />
-        
       </Router>
-
     </>
   );
 }

@@ -6,13 +6,12 @@ import {NavigationOfDishes} from './components/navigationOfDishes/navigationOfDi
 import {Dishes} from './components/dishes/dishes';
 import {Footer} from '../footer/footer';
 
-export function RestaurantPage(props) {
+export function RestaurantPage() {
   return (
-    <>
-      <HeaderCard />
-      <NavigationOfDishes />
-
-      <Dishes />
-    </>
+	<>
+	  <HeaderCard />
+	  <NavigationOfDishes />
+	  <Dishes />
+	</>
   );
 }
