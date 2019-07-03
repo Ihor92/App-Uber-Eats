@@ -1,8 +1,18 @@
 import React from 'react';
 import './restaurantPage.css';
 
-export function RestaurantPage() {
+import {HeaderCard} from './components/headerCard/headerCard';
+import {NavigationOfDishes} from './components/navigationOfDishes/navigationOfDishes';
+import {Dishes} from './components/dishes/dishes';
+import {Footer} from '../footer/footer';
+
+export function RestaurantPage(props) {
   return (
-    <h1>Hello World</h1>
-  )
+    <>
+      <HeaderCard />
+      <NavigationOfDishes />
+
+      <Dishes />
+    </>
+  );
 }

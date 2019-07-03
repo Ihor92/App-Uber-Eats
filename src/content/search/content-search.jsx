@@ -1,6 +1,6 @@
-import React from 'react';
-import './content-search.css';
-import search from './search.svg';
+import React from "react";
+import "./content-search.css";
+import search from "./search.svg";
 
 export function Search() {
   return (
@@ -8,7 +8,12 @@ export function Search() {
       <label htmlFor="search-restaurant" className="search-restaurant">
         <img src={search} alt="" />
       </label>
-      <input type="search" className="content__search" placeholder="Search for restaurant or cuisine" id="search-restaurant" />
+      <input
+        type="search"
+        className="content__search"
+        placeholder="Search for restaurant or cuisine"
+        id="search-restaurant"
+      />
     </div>
-  )
+  );
 }

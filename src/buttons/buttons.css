@@ -24,20 +24,19 @@
 
 .authorization__registration:hover {
   background-color: var(--background-registration);
-  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 .authorization__sing-in:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .authorization__sing-in:focus,
-.authorization__registration:focus
-.cart:focus {
+.authorization__registration:focus .cart:focus {
   outline: 0;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cart {

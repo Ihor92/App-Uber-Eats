@@ -6,7 +6,12 @@
   --footer-border: rgba(255, 255, 255, 0.4);
   --border-location-address: #e0e0e0;
   --border-search: #757575;
-  --restaurant__card-hover: rgba(117, 117, 117, 0.04); /*restaurant__block-hover*/
+  --restaurant__card-hover: rgba(
+    117,
+    117,
+    117,
+    0.04
+  ); /*restaurant__block-hover*/
   --restaurant-kitchen: #626262;
   --title-of-restaurant: #1d1d1d;
   --background-registration: #262626bd;
