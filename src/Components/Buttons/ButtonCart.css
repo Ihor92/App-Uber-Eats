@@ -1,0 +1,16 @@
+.button-cart {
+  background: transparent;
+  border: transparent;
+  padding: 0;
+  margin-left: 27px;
+  height: 30px;
+}
+
+.button-cart:focus {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-cart__img {
+  height: 30px;
+}

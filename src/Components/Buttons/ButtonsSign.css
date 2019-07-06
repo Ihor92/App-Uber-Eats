@@ -1,4 +1,10 @@
-.authorization__sing-in {
+.authorization__buttons {
+  width: 176px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-sign__in {
   border: 1px solid var(--border-location-address);
   border-radius: 2px;
   color: var(--title-of-restaurant);
@@ -10,7 +16,7 @@
   transition: 0.5s;
 }
 
-.authorization__registration {
+.button-sign__on {
   background: var(--background-fotter);
   color: var(--color-white);
   font-size: 13px;
@@ -22,30 +28,19 @@
   transition: 0.5s;
 }
 
-.authorization__registration:hover {
+.button-sign__on:hover {
   background-color: var(--background-registration);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
-.authorization__sing-in:hover {
+.button-sign__in:hover {
   cursor: pointer;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.authorization__sing-in:focus,
-.authorization__registration:focus .cart:focus {
+.button-sign__in:focus,
+.button-sign__on:focus {
   outline: 0;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-.cart {
-  background: transparent;
-  border: transparent;
-  padding: 0;
-  margin-left: 27px;
-}
-
-.box {
-  height: 30px;
 }

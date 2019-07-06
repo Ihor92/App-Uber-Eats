@@ -1,4 +1,4 @@
-.content__search-block {
+.search {
   width: 100%;
   border-bottom: 1px solid rgba(117, 117, 117, 0.3);
   margin-top: 32px;
@@ -6,11 +6,11 @@
   align-items: center;
 }
 
-.search-restaurant:hover {
+.search-label:hover {
   cursor: pointer;
 }
 
-.content__search {
+.search-input {
   padding: 8px 0 16px 8px;
   border: transparent;
   outline: 0;

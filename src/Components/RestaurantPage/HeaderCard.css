@@ -1,17 +1,17 @@
-.restaurant-offer {
+.header-card {
   background: url(./bg-restaurant.png);
   background-repeat: no-repeat;
   height: 546px;
   margin: 0 auto;
 }
 
-.restaurant__wrap {
+.header-card__wrap {
   max-width: 956px;
   margin: 0 auto;
   position: relative;
 }
 
-.restaurant__card {
+.header-card__content {
   width: 389px;
   height: 204px;
   border-radius: 2px;
@@ -21,7 +21,7 @@
   top: 80px;
 }
 
-.restaurant__card-title {
+.header-card__title {
   color: var(--title-of-restaurant);
   font-size: 36px;
   line-height: 42px;
@@ -29,25 +29,25 @@
   margin: 38px 0 0;
 }
 
-.restaurant__card-wrap {
+.header-card__wrapper {
   max-width: 319px;
   margin: 54px auto 0;
 }
 
-.restaurant__card-footer {
+.header-card__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.restaurant__kitchen {
+.header-card__kitchen {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
   color: var(--restaurant-kitchen);
 }
 
-.restaurant__time-delivery {
+.header-card__delivery {
   width: 97px;
   background: var(--background-fotter);
   color: var(--color-white);
@@ -60,7 +60,7 @@
   outline: 0;
 }
 
-.restaurant__time-delivery:active {
+.header-card__delivery:active {
   border: 1px solid #999;
   padding: 7px 0;
   box-shadow: 0 0 7px 0 rgb(117, 117, 117);

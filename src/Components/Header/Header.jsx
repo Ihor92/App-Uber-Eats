@@ -1,29 +1,29 @@
 import React from "react";
+import "./Header.css";
+import { ButtonsSign } from "../Buttons/ButtonsSign";
+import { ButtonCart } from "../Buttons/ButtonCart";
 import { Link } from "react-router-dom";
-import "./header.css";
-import { AuthorizationButtons } from "../buttons/buttons";
-import { Cart } from "../buttons/buttons";
 
-import logoHeader from "./logo-header.svg";
-import location from "./location.svg";
+import LogoHeader from "./logo-header.svg";
+import Location from "./location.svg";
 
 export function Header() {
   return (
     <div className="header">
-      <div className="header__wrap-content">
+      <div className="header__wrap">
         <Link className="hearder__logo" to="/">
-          <img src={logoHeader} alt="Logo Uber Eats" />
+          <img src={LogoHeader} alt="Logo Uber Eats" />
         </Link>
 
         <div className="location">
-          <div className="location__label">
-            <label htmlFor="asap" className="location__label-asap">
+          <div className="location__wrap">
+            <label htmlFor="asap" className="location__label">
               Asap
             </label>
           </div>
-          <p className="location__asap-to">to</p>
+          <p className="location__text">to</p>
           <div className="location__delivery">
-            <img src={location} alt="" className="location__delivery-img" />
+            <img src={Location} alt="" className="location__delivery-img" />
             <input
               type="text"
               className="locatinon__address"
@@ -34,8 +34,8 @@ export function Header() {
         </div>
 
         <div className="authorization">
-          <AuthorizationButtons />
-          <Cart />
+          <ButtonsSign />
+          <ButtonCart />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./RestaurantsCards.css";
-import { Card } from "./Card/card";
-import { restaurants } from "../data";
+import { Card } from "../Card/Card.jsx";
+import { restaurants } from "../Data.jsx";
 
 export function RestaurantsCards(props) {
   return (

@@ -44,5 +44,11 @@
       "pre-commit": "lint-staged",
       "pre-push": "npm run deploy"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

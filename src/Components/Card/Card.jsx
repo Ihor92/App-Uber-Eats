@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css";
+import "./Card.css";
 import { Link } from "react-router-dom";
 
 export function Card(props) {
@@ -16,14 +16,14 @@ export function Card(props) {
       <span className="restaurant__name restaurant__name-uppercaset">
         {props.title}
       </span>
-      <span className="restaurant__kitchen">
+      <span className="restaurant-kitchen">
         {props.priceBucket} • {" "}
         {props.categories.map(category => {
           return category.keyName + " • ";
         })}
       </span>
 
-      <span className="restaurant__time-delivery">
+      <span className="restaurant-delivery">
         {props.etaRange.min} - {props.etaRange.max} Min
       </span>
     </li>

@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./footer.css";
-import logo from "./logo.svg";
+import "./Footer.css";
+import Logo from "./FooterLogo.svg";
 
 export function Footer() {
   return (
     <div className="footer">
       <Link className="footer__wrap" to="/">
-        <img src={logo} alt="" />
+        <img src={Logo} alt="" />
       </Link>
     </div>
   );

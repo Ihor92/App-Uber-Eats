@@ -23,7 +23,7 @@
   text-transform: uppercase;
 }
 
-.restaurant__kitchen {
+.restaurant-kitchen {
   font-size: 14px;
   line-height: 21px;
   color: var(--restaurant-kitchen);
@@ -31,7 +31,7 @@
   padding-top: 4px;
 }
 
-.restaurant__time-delivery {
+.restaurant-delivery {
   color: var(--title-of-restaurant);
   font-size: 13px;
   line-height: 21px;

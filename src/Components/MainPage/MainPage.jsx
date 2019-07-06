@@ -1,7 +1,7 @@
 import React from "react";
-import "./content.css";
+import "./MainPage.css";
 
-import { Search } from "./search/content-search";
+import { Search } from "../Search/Search";
 import { RestaurantsCards } from "./RestaurantsCards/RestaurantsCards";
 
 export function Content() {
