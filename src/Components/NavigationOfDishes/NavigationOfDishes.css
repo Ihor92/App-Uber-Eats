@@ -1,0 +1,35 @@
+.navigation-of-dishes {
+  width: 1124px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.navigation-of-dishes__wrap {
+  width: 956px;
+  margin: 0 auto;
+}
+
+.navigation-of-dishes__nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 29px;
+  overflow: hidden;
+}
+
+.navigation-of-dishes__list {
+  line-height: 19px;
+  padding-right: 40px;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.navigation-of-dishes__link {
+  text-decoration: none;
+  color: var(--restaurant-kitchen);
+}
+
+.navigation-of-dishes__link:hover {
+  color: var(--restaurant-navbar);
+}

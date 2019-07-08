@@ -4,17 +4,17 @@ import { restaurants } from "../InfoCard.js";
 
 export function NavigationOfDishes(props) {
   return (
-    <nav className="restaurant-navbar">
-      <div className="restaurant-navbar__wrap">
-        <ul className="restaurant-navbar__list">
+    <nav className="navigation-of-dishes">
+      <div className="navigation-of-dishes__wrap">
+        <ul className="navigation-of-dishes__nav">
           {restaurants.sections.map((sections, i) => {
             return (
-              <li>
+              <li key={i} className="navigation-of-dishes__list">
                 <a
                   href="javascript: void(0)"
-                  className="restaurant-navbar__link"
+                  className="navigation-of-dishes__link"
                 >
-                  {restaurants.sections.title}
+                  {sections.title}
                 </a>
               </li>
             );
