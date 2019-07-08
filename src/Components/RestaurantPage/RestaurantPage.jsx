@@ -1,9 +1,9 @@
 import React from "react";
 import "./RestaurantPage.css";
 
-import { HeaderCard } from "../RestaurantPage/HeaderCard.jsx";
-import { NavigationOfDishes } from "../RestaurantPage/NavigationOfDishes";
-import { Dishes } from "../RestaurantPage/Dishes.jsx";
+import { HeaderCard } from "../HeaderCard/HeaderCard";
+import { NavigationOfDishes } from "../NavigationOfDishes/NavigationOfDishes";
+import { Dishes } from "../Dishes/Dishes";
 
 export function RestaurantPage() {
   return (

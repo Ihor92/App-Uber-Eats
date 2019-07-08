@@ -26,7 +26,8 @@
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin: 38px 0 0;
+  margin: 0;
+  padding-top: 32px;
 }
 
 .header-card__wrapper {

@@ -1,12 +1,12 @@
 import React from "react";
 import "./Search.css";
-import Search from "./Search.svg";
+import SearchImg from "./Search.svg";
 
 export function Search() {
   return (
     <div className="search">
       <label htmlFor="search-label" className="search-label">
-        <img src={Search} alt="" />
+        <img src={SearchImg} alt="" />
       </label>
       <input
         type="search"

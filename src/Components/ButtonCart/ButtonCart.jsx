@@ -1,5 +1,5 @@
 import React from "react";
-import 'ButtonCart.css';
+import './ButtonCart.css';
 import Cart from "./Cart.svg";
 
 export function ButtonCart() {

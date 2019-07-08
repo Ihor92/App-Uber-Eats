@@ -2,9 +2,9 @@ import React from "react";
 import "./MainPage.css";
 
 import { Search } from "../Search/Search";
-import { RestaurantsCards } from "./RestaurantsCards/RestaurantsCards";
+import { RestaurantsCards } from "../RestaurantsCards/RestaurantsCards";
 
-export function Content() {
+export function MainPage() {
   return (
     <div className="content">
       <div className="content__wrap">

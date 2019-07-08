@@ -1,11 +1,11 @@
 import React from "react";
 import "./Header.css";
-import { ButtonsSign } from "../Buttons/ButtonsSign";
-import { ButtonCart } from "../Buttons/ButtonCart";
+import { ButtonsSign } from "../ButtonsSign/ButtonsSign";
+import { ButtonCart } from "../ButtonCart/ButtonCart";
 import { Link } from "react-router-dom";
 
-import LogoHeader from "./logo-header.svg";
-import Location from "./location.svg";
+import LogoHeader from "./HeaderLogo.svg";
+import Location from "./Location.svg";
 
 export function Header() {
   return (

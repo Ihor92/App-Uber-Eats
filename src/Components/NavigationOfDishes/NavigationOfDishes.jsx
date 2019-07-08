@@ -1,6 +1,6 @@
 import React from "react";
-import "./navigationOfDishes.css";
-import { restaurants } from "../../infoCard.js";
+import "./NavigationOfDishes.css";
+import { restaurants } from "../InfoCard.js";
 
 export function NavigationOfDishes(props) {
   return (
