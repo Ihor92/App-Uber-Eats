@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "npm": "^6.9.2",
+    "npm": "^6.10.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
@@ -40,5 +40,17 @@
     "lint-staged": "^9.1.0",
     "prettier": "1.18.2",
     "surge": "^0.21.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run deploy"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
