@@ -7,7 +7,7 @@ export function Dish({ section }) {
     let dishPhoto = restaurants.items[item].imageUrl;
     return (
       <>
-        <li className="dishes-item dishes-item__wrap" key={i}>
+        <li className="dishes-item dishes-item_wrap" key={i}>
           <div className="dishes-item__content">
             <h5 className="dishes-menu__subtitle">
               {restaurants.items[item].title}

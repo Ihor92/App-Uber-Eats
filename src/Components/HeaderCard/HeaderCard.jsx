@@ -9,10 +9,10 @@ export function HeaderCard(props) {
       className="header-card"
       style={{ background: background, backgroundPosition: `center center` }}
     >
-      <div className="header-card__wrap">
+      <div className="header-card_wrap">
         <div className="header-card__content">
           <h2 className="header-card__title">{restaurants.title}</h2>
-          <div className="header-card__wrapper">
+          <div className="header-card_wrapper">
             <div className="header-card__footer">
               <p className="header-card__kitchen">
                 {restaurants.categories.map(category => {

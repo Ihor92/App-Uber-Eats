@@ -8,7 +8,7 @@ export function Dishes(props) {
     <>
       {restaurants.sections.map((section, i) => {
         return (
-          <div className="dishes dishes-wrap">
+          <div className="dishes dishes_wrap">
             <h4 className="dishes__title">{section.title}</h4>
             <ul className="dishes__list">
               <Dish section={section} />

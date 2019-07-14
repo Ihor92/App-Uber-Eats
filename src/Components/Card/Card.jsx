@@ -13,7 +13,7 @@ export function Card(props) {
         />
       </Link>
 
-      <span className="card__name card__name-uppercaset">{props.title}</span>
+      <span className="card__name card__name_uppercaset">{props.title}</span>
       <span className="card__kitchen">
         {props.priceBucket} •{" "}
         {props.categories.map(category => {

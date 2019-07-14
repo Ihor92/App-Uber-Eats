@@ -7,10 +7,10 @@ import { RestaurantsCards } from "../RestaurantsCards/RestaurantsCards";
 export function MainPage() {
   return (
     <div className="main-page">
-      <div className="main-page__wrap">
+      <div className="main-page_wrap">
         <Search />
 
-        <h1 className="main-page-title">Kyiv Restaurants</h1>
+        <h1 className="main-page__title">Kyiv Restaurants</h1>
         <RestaurantsCards />
       </div>
     </div>

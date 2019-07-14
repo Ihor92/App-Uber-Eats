@@ -6,7 +6,7 @@ import Logo from "./FooterLogo.svg";
 export function Footer() {
   return (
     <div className="footer">
-      <Link className="footer__wrap" to="/">
+      <Link className="footer_wrap" to="/">
         <img src={Logo} alt="" />
       </Link>
     </div>
