@@ -1,0 +1,53 @@
+.dishes-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(117, 117, 117, 0.4);
+}
+
+.dishes-item__wrap {
+  width: 470px;
+  margin-bottom: 25px;
+}
+
+.dishes-item__content {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+
+  width: 100%;
+  padding: 16px 30px 16px 16px;
+  height: 160px;
+  transition: 0.5s;
+}
+
+.dishes-item__content:hover {
+  background: #f9f9f9;
+}
+
+.dishes-menu__subtitle {
+  font-size: 16px;
+  color: var(----title-of-restaurant);
+  margin: 0;
+}
+
+.dishes-description {
+  font-size: 13px;
+  color: var(--restaurant-kitchen);
+  padding-top: 4px;
+}
+
+.dishes-price {
+  display: block;
+  margin-top: 15px;
+}
+
+.dishes-block__img {
+  width: 170px;
+  height: 160px;
+}
+
+.dishes-img {
+  width: 170px;
+  height: 160px;
+}
