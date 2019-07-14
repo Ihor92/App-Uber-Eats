@@ -3,10 +3,6 @@
   width: 100%;
 }
 
-/*.dishes:hover {
-  background: rgba(117, 117, 117, 0.04);
-}*/
-
 .dishes-wrap {
   width: 956px;
   margin: 0 auto;
@@ -42,9 +38,6 @@
 .dishes-item__content {
   display: flex;
   flex-direction: column;
-
-  /*align-items: flex-end;
-  align-self: flex-end;*/
   align-content: flex-end;
 
   width: 100%;
@@ -66,14 +59,7 @@
 
 .dishes-price {
   display: block;
-  /*display: flex;*/
-  /*align-self: flex-end;
-  justify-content: flex-end;*/
-  /*align-items: flex-end;*/
   margin-top: 15px;
-}
-
-.dishes-price__wrap {
 }
 
 .dishes-block__img {

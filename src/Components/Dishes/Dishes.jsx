@@ -22,7 +22,7 @@ export function Dishes(props) {
                         <span className="dishes-description">
                           {restaurants.items[item].itemDescription}
                         </span>
-                        <span className="dishes-price dishes-price__wrap">
+                        <span className="dishes-price">
                           {restaurants.items[item].price / 100 + " ₴"}
                         </span>
                       </div>

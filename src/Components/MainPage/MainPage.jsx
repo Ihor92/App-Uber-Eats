@@ -6,11 +6,11 @@ import { RestaurantsCards } from "../RestaurantsCards/RestaurantsCards";
 
 export function MainPage() {
   return (
-    <div className="content">
-      <div className="content__wrap">
+    <div className="main-page">
+      <div className="main-page__wrap">
         <Search />
 
-        <h1 className="content-title">Kyiv Restaurants</h1>
+        <h1 className="main-page-title">Kyiv Restaurants</h1>
         <div className="restaurant">
           <RestaurantsCards />
         </div>

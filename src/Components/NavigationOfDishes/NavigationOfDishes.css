@@ -3,6 +3,9 @@
   border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   z-index: 4;
   position: sticky;
+  top: 72px;
+  padding-top: 10px;
+  background: var(--color-white);
 }
 
 .navigation-of-dishes__wrap {
@@ -14,7 +17,7 @@
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 32px 0 29px;
+  margin: 20px 0 15px;
   overflow: hidden;
 }
 

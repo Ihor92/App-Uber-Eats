@@ -1,14 +1,14 @@
-.content {
+.main-page {
   max-width: 1124px;
   margin: 0 auto;
 }
 
-.content__wrap {
+.main-page__wrap {
   max-width: 956px;
   margin: 0 auto;
 }
 
-.content-title {
+.main-page-title {
   font-size: 22px;
   line-height: 34px;
   color: var(--title-of-restaurant);
@@ -18,7 +18,3 @@
 .restaurant {
   margin-bottom: 44px;
 }
-
-/*.restaurant__wrap {
-  margin-bottom: 16px;
-}*/

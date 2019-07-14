@@ -10,6 +10,12 @@
 
 .restaurant__img {
   max-width: 308px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.restaurant__img:hover {
+  padding-top: 5px;
 }
 
 .restaurant__name {
