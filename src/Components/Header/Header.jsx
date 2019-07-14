@@ -4,15 +4,15 @@ import { ButtonsSign } from "../ButtonsSign/ButtonsSign";
 import { ButtonCart } from "../ButtonCart/ButtonCart";
 import { Link } from "react-router-dom";
 
-import LogoHeader from "./HeaderLogo.svg";
-import Location from "./Location.svg";
+import HeaderLogo from "./img/HeaderLogo.svg";
+import Location from "./img/Location.svg";
 
 export function Header() {
   return (
     <div className="header">
       <div className="header_wrap">
         <Link className="hearder__logo" to="/">
-          <img src={LogoHeader} alt="Logo Uber Eats" />
+          <img src={HeaderLogo} alt="Logo Uber Eats" />
         </Link>
 
         <div className="location">

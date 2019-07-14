@@ -1,6 +1,6 @@
 import React from "react";
 import "./Search.css";
-import SearchImg from "./Search.svg";
+import SearchImg from "./img/Search.svg";
 
 export function Search() {
   return (
