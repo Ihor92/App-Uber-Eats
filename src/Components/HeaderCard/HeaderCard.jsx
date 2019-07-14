@@ -3,8 +3,12 @@ import "./HeaderCard.css";
 import { restaurants } from "../InfoCard.js";
 
 export function HeaderCard(props) {
+  const background = `url(${restaurants.largeImageUrl})`;
   return (
-    <div className="header-card">
+    <div
+      className="header-card"
+      style={{ background: background, backgroundPosition: `center center` }}
+    >
       <div className="header-card__wrap">
         <div className="header-card__content">
           <h2 className="header-card__title">{restaurants.title}</h2>
