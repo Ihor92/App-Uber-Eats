@@ -1,35 +1,35 @@
-.restaurant__card {
+.card {
   max-width: 308px;
   margin: 0 5px;
 }
 
-.restaurant__card:hover {
+.card:hover {
   background: var(--restaurant__card-hover);
   transition: 0.5s;
 }
 
-.restaurant__img {
+.card__img {
   max-width: 308px;
   transition: 0.5s;
   object-fit: cover;
 }
 
-.restaurant__img:hover {
+.card__img:hover {
   padding-top: 5px;
 }
 
-.restaurant__name {
+.card__name {
   color: var(--title-of-restaurant);
   line-height: 24px;
   display: block;
   padding-top: 16px;
 }
 
-.restaurant__name-uppercase {
+.card__name-uppercase {
   text-transform: uppercase;
 }
 
-.restaurant-kitchen {
+.card__kitchen {
   font-size: 14px;
   line-height: 21px;
   color: var(--restaurant-kitchen);
@@ -37,7 +37,7 @@
   padding-top: 4px;
 }
 
-.restaurant-delivery {
+.card__delivery {
   color: var(--title-of-restaurant);
   font-size: 13px;
   line-height: 21px;
