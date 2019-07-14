@@ -11,9 +11,7 @@ export function MainPage() {
         <Search />
 
         <h1 className="main-page-title">Kyiv Restaurants</h1>
-        <div className="restaurant">
-          <RestaurantsCards />
-        </div>
+        <RestaurantsCards />
       </div>
     </div>
   );
