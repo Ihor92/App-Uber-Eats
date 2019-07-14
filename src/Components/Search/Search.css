@@ -6,11 +6,11 @@
   align-items: center;
 }
 
-.search-label:hover {
+.search__label:hover {
   cursor: pointer;
 }
 
-.search-input {
+.search__input {
   padding: 8px 0 16px 8px;
   border: transparent;
   outline: 0;
