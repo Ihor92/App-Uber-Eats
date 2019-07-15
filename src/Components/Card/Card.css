@@ -15,7 +15,7 @@
 }
 
 .card__img:hover {
-  padding-top: 5px;
+  transform: translateY(-5px);
 }
 
 .card__name {
