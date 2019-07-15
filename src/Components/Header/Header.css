@@ -68,8 +68,3 @@
 .locatinon__address::placeholder {
   color: var(--title-of-restaurant);
 }
-
-.authorization {
-  display: flex;
-  align-items: center;
-}

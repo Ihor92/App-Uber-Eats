@@ -1,9 +1,8 @@
 import React from "react";
 import "./Header.css";
-import { ButtonsSign } from "../ButtonsSign/ButtonsSign";
-import { ButtonCart } from "../ButtonCart/ButtonCart";
 import { Link } from "react-router-dom";
 
+import { Authorization } from "../Authorization/Authorization";
 import HeaderLogo from "./img/HeaderLogo.svg";
 import Location from "./img/Location.svg";
 
@@ -32,11 +31,7 @@ export function Header() {
             />
           </div>
         </div>
-
-        <div className="authorization">
-          <ButtonsSign />
-          <ButtonCart />
-        </div>
+        <Authorization />
       </div>
     </div>
   );
