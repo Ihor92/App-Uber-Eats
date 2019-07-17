@@ -17,12 +17,12 @@
   height: 72px;
 }
 
-.location {
+.header__location {
   display: flex;
   align-items: center;
 }
 
-.location_wrap {
+.header__location-wrap {
   border: 1px solid var(--border-location-address);
   color: var(--title-of-restaurant);
   border-radius: 2px;
@@ -35,18 +35,18 @@
   user-select: none;
 }
 
-.location__label:hover {
+.header__location-label:hover {
   cursor: pointer;
 }
 
-.location__text {
+.header__location-text {
   color: var(--restaurant-kitchen);
   margin: 0 9px;
   height: 19px;
   user-select: none;
 }
 
-.location__delivery {
+.header__location-delivery {
   border: 1px solid var(--border-location-address);
   border-radius: 2px;
   height: 40px;
@@ -55,16 +55,16 @@
   display: flex;
 }
 
-.locatinon__address {
+.header__location-img {
+  padding: 0 12px;
+}
+
+.header__locatinon-address {
   border: transparent;
   width: 100%;
   outline: 0;
 }
 
-.location__delivery_img {
-  padding: 0 12px;
-}
-
-.locatinon__address::placeholder {
+.header__locatinon-address::placeholder {
   color: var(--title-of-restaurant);
 }

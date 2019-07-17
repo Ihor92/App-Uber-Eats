@@ -14,18 +14,18 @@ export function Header() {
           <img src={HeaderLogo} alt="Logo Uber Eats" />
         </Link>
 
-        <div className="location">
-          <div className="location_wrap">
-            <label htmlFor="asap" className="location__label">
+        <div className="header__location">
+          <div className="header__location-wrap">
+            <label htmlFor="asap" className="header__location-label">
               Asap
             </label>
           </div>
-          <p className="location__text">to</p>
-          <div className="location__delivery">
-            <img src={Location} alt="" className="location__delivery_img" />
+          <p className="header__location-text">to</p>
+          <div className="header__location-delivery">
+            <img src={Location} alt="" className="header__location-img" />
             <input
               type="text"
-              className="locatinon__address"
+              className="header__locatinon-address"
               placeholder="ul. Tarasivska St, 16"
               id="asap"
             />
