@@ -9,7 +9,9 @@ export class MainPage extends Component {
     super(props);
     this.state = {
       isLoaded: false,
-      restaurants: []
+      restaurants: [],
+      restaurantsFiltered: [],
+      searchValue: ""
     };
   }
 
@@ -20,7 +22,8 @@ export class MainPage extends Component {
         result => {
           this.setState({
             isLoaded: true,
-            restaurants: result
+            restaurants: result,
+            restaurantsFiltered: result
           });
         },
         error => {
@@ -32,16 +35,26 @@ export class MainPage extends Component {
       );
   }
 
+  handleInputChange = event => {
+    const restaurantsFiltered = this.state.restaurants.filter(restaurant =>
+      restaurant.title.toLowerCase().includes(event.target.value.toLowerCase())
+    );
+    this.setState({ searchValue: event.target.value, restaurantsFiltered });
+  };
+
   render() {
-    const { isLoaded, restaurants } = this.state;
+    const { isLoaded, restaurantsFiltered, searchValue } = this.state;
     return (
       <div className="main-page">
         <div className="main-page_wrap">
-          <Search />
+          <Search value={searchValue} onChange={this.handleInputChange} />
 
           <h1 className="main-page__title">Kyiv Restaurants</h1>
 
-          <RestaurantsCards restaurants={restaurants} isLoaded={isLoaded} />
+          <RestaurantsCards
+            restaurants={restaurantsFiltered}
+            isLoaded={isLoaded}
+          />
         </div>
       </div>
     );
