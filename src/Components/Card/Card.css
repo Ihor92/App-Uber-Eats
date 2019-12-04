@@ -12,6 +12,7 @@
   max-width: 308px;
   transition: 0.5s;
   object-fit: cover;
+  height: 246px;
 }
 
 .card__img:hover {

@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Route path="/" exact component={MainPage} />
-        <Route path="/restaurant" component={RestaurantPage} />
+        <Route path="/:id" component={RestaurantPage} />
         <Footer />
       </Router>
     </>

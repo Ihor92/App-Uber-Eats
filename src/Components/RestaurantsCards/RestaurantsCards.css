@@ -10,3 +10,17 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.restaurant-waiting__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 954px;
+}
+
+.restaurant-waiting {
+  margin: 0 5px 115px;
+  width: 308px;
+  height: 246px;
+  border: 1px solid #d7d6dd;
+  background: #968f94;
+}

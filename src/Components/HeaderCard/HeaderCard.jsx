@@ -1,9 +1,10 @@
 import React from "react";
 import "./HeaderCard.css";
-import { restaurants } from "../InfoCard.js";
 
 export function HeaderCard(props) {
-  const background = `url(${restaurants.largeImageUrl})`;
+  const { restaurant } = props;
+
+  const background = `url(${restaurant.largeImageUrl})`;
   return (
     <div
       className="header-card"
@@ -11,16 +12,14 @@ export function HeaderCard(props) {
     >
       <div className="header-card_wrap">
         <div className="header-card__content">
-          <h2 className="header-card__title">{restaurants.title}</h2>
+          <h2 className="header-card__title">{restaurant.title}</h2>
           <div className="header-card_wrapper">
             <div className="header-card__footer">
               <p className="header-card__kitchen">
-                {restaurants.categories.map(category => {
-                  return "₴₴₴ " + "• " + category.name;
-                })}
+                {restaurant.categories.map(({ name }) => `₴₴₴ • ${name}`)}
               </p>
               <button className="header-card__delivery">
-                {restaurants.etaRange.min} - {restaurants.etaRange.max} Min
+                {restaurant.etaRange.min} - {restaurant.etaRange.max} Min
               </button>
             </div>
           </div>
