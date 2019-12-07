@@ -1,5 +1,6 @@
 .footer {
   background: var(--background-fotter);
+  flex-shrink: 0;
 }
 
 .footer_wrap {

@@ -5,6 +5,8 @@ export function HeaderCard(props) {
   const { restaurant } = props;
 
   const background = `url(${restaurant.largeImageUrl})`;
+  console.log(background);
+
   return (
     <div
       className="header-card"

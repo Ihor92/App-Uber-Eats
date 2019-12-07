@@ -30,6 +30,13 @@ body {
   min-width: 320px;
 }
 
-/*<div className="restaurant__wrap">
-  
-</div>*/
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

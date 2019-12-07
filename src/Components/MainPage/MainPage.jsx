@@ -43,7 +43,13 @@ export class MainPage extends Component {
   };
 
   render() {
-    const { isLoaded, restaurantsFiltered, searchValue } = this.state;
+    const restaurantsFilteredMessage = "";
+    const {
+      isLoaded,
+      restaurantsFiltered,
+      restaurants,
+      searchValue
+    } = this.state;
     return (
       <div className="main-page">
         <div className="main-page_wrap">
@@ -54,6 +60,7 @@ export class MainPage extends Component {
           <RestaurantsCards
             restaurants={restaurantsFiltered}
             isLoaded={isLoaded}
+            hasItems={!!restaurants.length}
           />
         </div>
       </div>

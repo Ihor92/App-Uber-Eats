@@ -36,6 +36,7 @@ export class RestaurantPage extends Component {
         }
       );
   }
+
   render() {
     const { restaurant } = this.state;
     return (
