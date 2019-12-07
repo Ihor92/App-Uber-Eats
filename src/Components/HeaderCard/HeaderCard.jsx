@@ -18,7 +18,7 @@ export function HeaderCard(props) {
           <div className="header-card_wrapper">
             <div className="header-card__footer">
               <p className="header-card__kitchen">
-                {restaurant.categories.map(({ name }) => `₴₴₴ • ${name}`)}
+                {restaurant.categories.map(({ name }) => ` ₴₴₴ • ${name}`)}
               </p>
               <button className="header-card__delivery">
                 {restaurant.etaRange.min} - {restaurant.etaRange.max} Min
