@@ -10,8 +10,10 @@ function App() {
     <>
       <Router>
         <Header />
-        <Route path="/" exact component={MainPage} />
-        <Route path="/:id" component={RestaurantPage} />
+        <main>
+          <Route path="/" exact component={MainPage} />
+          <Route path="/:id" component={RestaurantPage} />
+        </main>
         <Footer />
       </Router>
     </>
